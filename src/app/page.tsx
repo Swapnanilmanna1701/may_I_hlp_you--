@@ -1,4 +1,4 @@
-import GeminiAI from "@/components/GeminiAI";
+import GeminiAI from "@/components/GeminiAi";
 
 export default function Home() {
   return (
