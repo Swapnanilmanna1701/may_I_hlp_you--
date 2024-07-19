@@ -34,7 +34,7 @@ body {
 
 .pissoff {
   background-color: rgb(0, 0, 0);
-  background-image: radial-gradient(at 12% 88%, rgb(0, 0, 0) 0, transparent 58%), radial-gradient(at 50% 32%, rgb(0, 0, 0) 0, transparent 31%), radial-gradient(at 86% 59%, rgb(0, 0, 0) 0, transparent 98%), radial-gradient(at 68% 3%, rgb(0, 0, 0) 0, transparent 73%), radial-gradient(at 80% 41%, rgb(0, 0, 0) 0, transparent 15%), radial-gradient(at 1% 24%, rgb(0, 0, 0) 0, transparent 6%);
+  background-image: radial-gradient(at 12% 88%, rgb(2, 3, 37) 0, transparent 58%), radial-gradient(at 50% 32%, rgb(0, 0, 0) 0, transparent 31%), radial-gradient(at 86% 59%, rgb(0, 0, 0) 0, transparent 98%), radial-gradient(at 68% 3%, rgb(0, 0, 0) 0, transparent 73%), radial-gradient(at 80% 41%, rgb(0, 0, 0) 0, transparent 15%), radial-gradient(at 1% 24%, rgb(0, 0, 0) 0, transparent 6%);
 }
 
 body::-webkit-scrollbar {
