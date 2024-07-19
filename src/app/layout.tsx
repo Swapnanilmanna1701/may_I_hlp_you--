@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chat Genai",
-  description: "Introducing modern chatbot technology with Gemini AI.",
+  title: "May I Help You?",
+  description: "-Powered by GEMINI AI",
   openGraph: {
     images: [
       {

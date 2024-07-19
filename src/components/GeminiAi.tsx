@@ -172,8 +172,8 @@ const GeminiAI: React.FC = () => {
                           } Avatar`}
                         src={
                           message.type === "ai"
-                            ? "/gemini.jpg"
-                            : "/user.png"
+                            ? "/ai.gif"
+                            : "/user.webp"
                         }
                       />
                     </div>
