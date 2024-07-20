@@ -213,7 +213,7 @@ const GeminiAI: React.FC = () => {
             type="submit"
             onClick={handleMessageSubmit}
             disabled={loading}
-            className="bg-violet-500 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-sky-500"
+            className="bg-sky-600 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-sky-500"
           >
             {
               loading ? <LuLoader className="animate-spin bg-gradient-to-br from-sky-600 via-blue-800 to-indigo-900" size={28} /> : "✨"
