@@ -140,7 +140,7 @@ const GeminiAI: React.FC = () => {
                 
               </h1>
               <h1 className="text-gray-300 text-xl sm:text-2xl tracking-wide font-bold">
-                <span className="text-transparent bg-gradient-to-br from-sky-400 via-blue-400 to-indigo-600 bg-clip-text text-4xl sm:text-5xl">May I Help You?</span>
+                <span className="text-transparent bg-gradient-to-br from-sky-400 via-blue-400 to-indigo-600 bg-clip-text text-4xl sm:text-5xl">Gemini AI ✨</span>
               </h1>
 
               <Image
@@ -213,10 +213,10 @@ const GeminiAI: React.FC = () => {
             type="submit"
             onClick={handleMessageSubmit}
             disabled={loading}
-            className="bg-sky-500 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-gray-500"
+            className="bg-violet-500 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-sky-500"
           >
             {
-              loading ? <LuLoader className="animate-spin" size={28} /> : "Send"
+              loading ? <LuLoader className="animate-spin bg-gradient-to-br from-sky-600 via-blue-800 to-indigo-900" size={28} /> : "✨"
             }
           </button>
         </div>
