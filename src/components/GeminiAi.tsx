@@ -130,7 +130,7 @@ const GeminiAI: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-svh items-center justify-between h-screen sm:p-3 lg:px-52 overflow-y-hidden pissoff">
-      <div className="h-full w-full flex flex-col items-center justify-center  bg-opacity-90 backdrop-blur-md sm:rounded-lg overflow-y-scroll" style={{
+      <div className="h-full w-full flex flex-col items-center justify-center glassmorphism sm:rounded-lg overflow-y-scroll" style={{
         scrollbarWidth: 'none',
       }}>
         {messages.length === 0 ? (
@@ -206,14 +206,14 @@ const GeminiAI: React.FC = () => {
             disabled={loading}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            placeholder="Enter your prompt"
-            className="bg-transparent text-white outline-none flex-grow"
+            placeholder="Enter your prompt..."
+            className="bg-transparent glassmorphism text-white outline-none flex-grow"
           />
           <button
             type="submit"
             onClick={handleMessageSubmit}
             disabled={loading}
-            className="bg-sky-400 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-gray-500"
+            className="bg-sky-500 text-white text-lg px-4 py-2 rounded-md ml-4 disabled:bg-gray-500"
           >
             {
               loading ? <LuLoader className="animate-spin" size={28} /> : "Send"
